@@ -3,7 +3,7 @@
 
 MergeData.py to merge datasets
 
-Used Tissue_Filter.py to filter EB genes by tissue. Uses List.tsv file. The TPM is filtered by removing those EB genes where the median < 1. Uses these medians to remove EB genes where median TPM is less than that of the median of all known protein coding genes. The same genes are removed from counts as well. This script also outputs a file that contains all the genes that passed the TPM filter for any study and the corresponding counts as well.
+Tissue_Filter.py: This takes output from MergeData.py and separates TPM and counts by tissue. Additionaly, the TPM is filtered by removing those EB genes where the median < 1. Uses these medians to remove EB genes where median TPM is less than that of the median of all known protein coding genes. The same genes are removed from counts as well. A tab delimited file called "List.tsv" is also needed. This script also outputs a file that contains all the genes that passed the TPM filter for any tissue and the corresponding counts as well. Outputs median of known protein coding and lincRNA, and Evidence based genes.
 
 
 ```

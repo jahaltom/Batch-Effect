@@ -6,7 +6,6 @@ nasal_counts = pd.read_csv("results_Count_gene.nasal.tsv",sep='\t')
 nasal_TPM = pd.read_csv("results_TPM_gene.nasal.tsv",sep='\t')
 autopsy_counts = pd.read_csv("results_Count_gene.autopsy.tsv",sep='\t')
 autopsy_TPM = pd.read_csv("results_TPM_gene.autopsy.tsv",sep='\t')
-metadata=pd.read_csv("Metadata.txt",sep='\t')
 
 #Get autopsy columns names only
 autopsyColsCounts = autopsy_counts.columns.difference(nasal_counts.columns)

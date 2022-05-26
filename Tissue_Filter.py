@@ -10,7 +10,7 @@ dftpm = pd.read_csv("NasalAutopsyTPM",sep='\t')
 dfcount = pd.read_csv("NasalAutopsyCount",sep='\t')
 
 #Import list of study_accession and run_accession IDs.
-ra_list = pd.read_csv("List",sep='\t')
+ra_list = pd.read_csv("List.tsv",sep='\t')
 ##Create dict that has study_accession ID as key.
 d = ra_list.groupby('Tissue2')['SampleID'].apply(list).to_dict()
 

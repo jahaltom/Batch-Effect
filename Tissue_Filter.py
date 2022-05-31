@@ -27,11 +27,14 @@ for key in d:
     ##Merge metadata with tpm and count
     tpm = pd.concat([metadata, tpm], axis=1)
     count = pd.concat([metadata, count], axis=1)
-    if path.exists(key) is not True:
-        os.mkdir(key)
+
     
     #create a median column
     tpm['median']=tpm.median(axis=1)
+    
+    #Remove genes where TPM median < 1
+    indexNames = tpm[ (tpm['median'] < 1)].index
+    tpm.drop(indexNames , inplace=True)
     
     #calculate medians of median tpm dist for protein_coding, lncRNA, and EB genes
     med_med_pc=tpm.loc[tpm['Gene_type'] == 'protein_coding']['median'].median()
@@ -39,28 +42,14 @@ for key in d:
     med_med_eb=tpm.loc[tpm['Gene_type'] == 'EB_novel']['median'].median()
     print(key,"Protein Coding:",med_med_pc,"lincRNA:",med_med_lnc,"Evidence based:",med_med_eb)
     
-    #Remove EB genes where TPM median < 1
-    indexNames = tpm[ (tpm['median'] < 1) & (tpm['Gene_type'] == 'EB_novel') ].index
-    tpm.drop(indexNames , inplace=True)
-    
-    
-
-
-    #Remove EB genes where median TPM is less than that of the med_med_pc
-    indexNames = tpm[(tpm['Gene_type'] == 'EB_novel') & (tpm['median'] < med_med_pc) ].index
+    #Remove EB genes where median TPM is less than that of the med_med_lnc
+    indexNames = tpm[(tpm['Gene_type'] == 'EB_novel') & (tpm['median'] < med_med_lnc) ].index
     tpm.drop(indexNames , inplace=True)
     ##Append genes that made it through filter to list
     genes.append(tpm['Gene_stable_ID'])
     
-    #Gather list of Gene_stable_IDs from filtered TPM an use to filter counts. 
-    id_list=tpm['Gene_stable_ID'].tolist()
-    count=count[count['Gene_stable_ID'].isin(id_list)]
-
-    #write to respective study
-    tpm.to_csv(key +'/'+ key + ".TPM.tsv",sep='\t',index=False)
-    count.to_csv(key +'/'+ key + ".Count.tsv",sep='\t',index=False)
     
-    
+       
 ##Use genes that pass TPM filter(genes) to filter file that contains TPM and Counts for all studies. 
 genes = pd.concat(genes,ignore_index=True)
 genes = genes.drop_duplicates()

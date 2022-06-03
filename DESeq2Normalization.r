@@ -1,12 +1,12 @@
 library(DESeq2)
 library(dplyr)
 
-#Read in expression data.
-countData = read.table("results_TPM_gene.filtered.tsv",header=TRUE,sep = '\t')
+#Read in count data.
+countData = read.table("results_Count_gene.filtered.tsv",header=TRUE,sep = '\t')
 #X an Y gene names can be the same. This makes them unique. Row is set to this unique value. 
 rownames(countData)= paste(countData$Gene_name,countData$Gene_stable_ID, countData$chr,sep="$")
 
-#Select only columns with expression data. 
+#Select only columns with count data. 
 countData=select(countData,contains(c("COVSUBJ","batch")))
 #Round expression data.
 countData=round(countData,0) 
@@ -22,4 +22,4 @@ dds = DESeqDataSetFromMatrix(countData = countData,colData = metadata,design = ~
 dds = DESeq(dds)
 #Get normalized expression data
 normCounts=counts(dds, normalized = TRUE)
-write.table(normCounts,"DESeq_TPM.tsv" ,sep = '\t',quote = FALSE)
+write.table(normCounts,"DESeq_Count.tsv" ,sep = '\t',quote = FALSE)

@@ -12,7 +12,7 @@ countData=select(countData,contains(c("COVSUBJ","batch")))
 countData=round(countData,0) 
 
 #Read in expermental design
-metadata = read.table("DesignNasalAutopsy.tsv",header=TRUE,row.names=1,sep = '\t')
+metadata = read.table("Metadata.tsv",header=TRUE,row.names=1,sep = '\t')
 
 #Should return TRUE
 #all(rownames(metadata) == colnames(countData))

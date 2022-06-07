@@ -11,16 +11,10 @@ countData=select(countData,contains(c("COVSUBJ","batch")))
 #Round expression data.
 countData=round(countData,0) 
 
-#Read in expermental design
-metadata = read.table("Metadata.tsv",header=TRUE,row.names=1,sep = '\t')
 
-#Should return TRUE
-#all(rownames(metadata) == colnames(countData))
- 
-#Make DEseq2 object
-dds = DESeqDataSetFromMatrix(countData = countData,colData = metadata,design = ~ Study)
-#dds= DESeqDataSetFromMatrix(countData=countData, colData = data.frame(colnames(countData)), design = ~1)
+
+dds= DESeqDataSetFromMatrix(countData=countData, colData = data.frame(colnames(countData)), design = ~1)
 dds = DESeq(dds)
 #Get normalized expression data
 normCounts=counts(dds, normalized = TRUE)
-write.table(normCounts,"DESeq_Count.tsv" ,sep = '\t',quote = FALSE)
+write.table(normCounts,"DESeq2NormCount.tsv" ,sep = '\t',quote = FALSE)

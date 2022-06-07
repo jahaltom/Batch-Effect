@@ -7,7 +7,7 @@ rownames(countData)= paste(countData$Gene_name,countData$Gene_stable_ID, countDa
 
 #Select only columns with count data. 
 countData=select(countData,contains(c("COVSUBJ","batch")))
-#Round expression data.
+#Round count data.
 countData=round(countData,0) 
 
 
@@ -15,7 +15,6 @@ countData=round(countData,0)
 metadata = read.table("Metadata.tsv",header=TRUE,sep = '\t')
 group=metadata$Tissue
 batch=metadata$Study
-
 adjusted_counts = sva::ComBat_seq(countData, batch=batch, group=group, full_mod=FALSE)
 write.table(adjusted_counts,"CombatSeq.Counts.tsv" ,sep = '\t',quote = FALSE)
 

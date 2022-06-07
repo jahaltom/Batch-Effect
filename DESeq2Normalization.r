@@ -8,11 +8,11 @@ rownames(countData)= paste(countData$Gene_name,countData$Gene_stable_ID, countDa
 
 #Select only columns with count data. 
 countData=select(countData,contains(c("COVSUBJ","batch")))
-#Round expression data.
+#Round count data.
 countData=round(countData,0) 
 
 
-
+##DESeq2
 dds= DESeqDataSetFromMatrix(countData=countData, colData = data.frame(colnames(countData)), design = ~1)
 dds = DESeq(dds)
 #Get normalized expression data

@@ -2,7 +2,7 @@ library(DESeq2)
 library(dplyr)
 
 #Read in count data.
-countData = read.table("results_Count_gene.filtered.tsv",header=TRUE,sep = '\t')
+countData = read.table("results_Count_gene.filtered.tsv",header=TRUE,sep = '\t',quote="")
 #X an Y gene names can be the same. This makes them unique. Row is set to this unique value. 
 rownames(countData)= paste(countData$Gene_name,countData$Gene_stable_ID, countData$chr,sep="$")
 
@@ -19,6 +19,7 @@ metadata = read.table("Metadata.tsv",header=TRUE,row.names=1,sep = '\t')
  
 #Make DEseq2 object
 dds = DESeqDataSetFromMatrix(countData = countData,colData = metadata,design = ~ Study)
+#dds= DESeqDataSetFromMatrix(countData=countData, colData = data.frame(colnames(countData)), design = ~1)
 dds = DESeq(dds)
 #Get normalized expression data
 normCounts=counts(dds, normalized = TRUE)

@@ -1,0 +1,903 @@
+SampleID	SamplePlate_orig	SequencingBatch	RT_PCR_Result	Covid Status	Tissue	Tissue2	Study	RIA Superpopulation Inference	RIA Superpopulation Inference GrtEq0.7	Type
+batch1_Control01_Heart_LV		batch1	Control	No-Covid	Heart_LV	Heart	Autopsy	East Asian	East Asian	
+batch1_Control01_Heart_RA		batch1	Control	No-Covid	Heart_RA	Heart	Autopsy	European	European	
+batch1_Control01_Heart_RV		batch1	Control	No-Covid	Heart_RV	Heart	Autopsy	East Asian	East Asian	
+batch1_Control02a_Heart_Total		batch1	Control	No-Covid	Heart_Total	Heart	Autopsy	European	European	
+batch1_Control02b_Heart_Total		batch1	Control	No-Covid	Heart_Total	Heart	Autopsy	East Asian	East Asian	
+batch1_Control03a_Kidney_Total		batch1	Control	No-Covid	Kidney_Total	Kidney	Autopsy	European	European	
+batch1_Control03b_Kidney_Total		batch1	Control	No-Covid	Kidney_Total	Kidney	Autopsy	European	European	
+batch1_Control03c_Kidney_Total		batch1	Control	No-Covid	Kidney_Total	Kidney	Autopsy	East Asian	East Asian	
+batch1_Control04a_Liver_LeftLobe		batch1	Control	No-Covid	Liver_LeftLobe	Liver	Autopsy	East Asian	East Asian	
+batch1_Control04b_Liver_RightLobe		batch1	Control	No-Covid	Liver_RightLobe	Liver	Autopsy	East Asian	East Asian	
+batch1_Control04c_Liver_Total		batch1	Control	No-Covid	Liver_Total	Liver	Autopsy	European	European	
+batch1_Control04d_Liver_Total		batch1	Control	No-Covid	Liver_Total	Liver	Autopsy	East Asian	East Asian	
+batch1_Control04e_Liver_Total		batch1	Control	No-Covid	Liver_Total	Liver	Autopsy	African	African	
+batch1_Control05a_Lung_LeftUpper		batch1	Control	No-Covid	Lung_LeftUpper	Lung	Autopsy	East Asian	East Asian	
+batch1_Control05b_Lung_RightMiddle		batch1	Control	No-Covid	Lung_RightMiddle	Lung	Autopsy	East Asian	East Asian	
+batch1_Control05c_Lung_Total		batch1	Control	No-Covid	Lung_Total	Lung	Autopsy	European	European	
+batch1_Control05d_Lung_Total		batch1	Control	No-Covid	Lung_Total	Lung	Autopsy	East Asian	East Asian	
+batch1_Patient49_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	European	European	
+batch1_Patient49_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	European	European	
+batch1_Patient49_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	European	European	
+batch1_Patient49_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	European	European	
+batch1_Patient50_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	East Asian	East Asian	
+batch1_Patient51_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	African	African	
+batch1_Patient51_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	African	African	
+batch1_Patient51_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	African	African	
+batch1_Patient52_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	African	African	
+batch1_Patient52_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	African	African	
+batch1_Patient52_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	African	African	
+batch1_Patient52_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	African	African	
+batch1_Patient53_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	African	African	
+batch1_Patient53_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	African	African	
+batch1_Patient53_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	African	African	
+batch1_Patient53_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	African	African	
+batch1_Patient54_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	European	Admix	
+batch1_Patient54_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	European	European	
+batch1_Patient54_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	European	European	
+batch1_Patient54_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	European	European	
+batch1_Patient55_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	African	African	
+batch1_Patient55_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	African	African	
+batch1_Patient55_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	African	African	
+batch1_Patient55_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	African	African	
+batch1_Patient56_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	European	European	
+batch1_Patient58_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	American	American	
+batch1_Patient58_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	American	American	
+batch1_Patient58_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	American	American	
+batch1_Patient58_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	American	American	
+batch1_Patient59_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	South Asian	South Asian	
+batch1_Patient62_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	European	European	
+batch1_Patient62_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	European	European	
+batch1_Patient62_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	European	European	
+batch1_Patient62_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	European	European	
+batch1_Patient64_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	American	American	
+batch1_Patient64_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	American	American	
+batch1_Patient64_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	American	American	
+batch1_Patient64_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	American	American	
+batch1_Patient65_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	American	American	
+batch1_Patient65_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	American	American	
+batch1_Patient65_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	American	American	
+batch1_Patient65_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	American	American	
+batch1_Patient68_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	East Asian	Admix	
+batch1_Patient68_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	East Asian	Admix	
+batch1_Patient69_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	South Asian	South Asian	
+batch1_Patient69_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	South Asian	South Asian	
+batch1_Patient69_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	South Asian	South Asian	
+batch1_Patient69_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	South Asian	South Asian	
+batch1_Patient70_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	European	European	
+batch1_Patient70_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	European	European	
+batch1_Patient70_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	European	European	
+batch1_Patient70_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	European	European	
+batch1_Patient70_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	European	European	
+batch1_Patient71_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	American	American	
+batch1_Patient71_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	American	Admix	
+batch1_Patient71_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	American	Admix	
+batch1_Patient71_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	American	American	
+batch1_Patient71_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	American	American	
+batch1_Patient72_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	European	European	
+batch1_Patient72_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	European	European	
+batch1_Patient72_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	European	European	
+batch1_Patient72_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	European	European	
+batch1_Patient72_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	European	European	
+batch1_Patient73_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	East Asian	East Asian	
+batch1_Patient73_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	East Asian	East Asian	
+batch1_Patient73_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	East Asian	East Asian	
+batch1_Patient73_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	East Asian	East Asian	
+batch1_Patient73_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	East Asian	East Asian	
+batch1_Patient74_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	South Asian	South Asian	
+batch1_Patient74_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	South Asian	South Asian	
+batch1_Patient74_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	South Asian	South Asian	
+batch1_Patient74_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	South Asian	South Asian	
+batch1_Patient74a_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	South Asian	South Asian	
+batch1_Patient74b_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	European	European	
+batch1_Patient75_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	European	European	
+batch1_Patient75_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	European	European	
+batch1_Patient75_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	European	European	
+batch1_Patient75_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	European	European	
+batch1_Patient75_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	European	European	
+batch1_Patient76_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	European	European	
+batch1_Patient76_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	European	European	
+batch1_Patient76_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	European	European	
+batch1_Patient76_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	European	European	
+batch1_Patient77_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	American	American	
+batch1_Patient77_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	American	American	
+batch1_Patient77_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	American	American	
+batch1_Patient77_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	American	American	
+batch1_Patient77_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	American	American	
+batch1_Patient79_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	American	American	
+batch1_Patient79_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	American	American	
+batch1_Patient79_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	American	American	
+batch1_Patient79_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	American	American	
+batch1_Patient79_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	American	American	
+batch1_Patient80_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	African	African	
+batch1_Patient80_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	African	African	
+batch1_Patient80_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	African	African	
+batch1_Patient80_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	African	African	
+batch1_Patient80_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	African	African	
+batch1_Patient81_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	European	European	
+batch1_Patient81_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	European	Admix	
+batch1_Patient81_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	American	American	
+batch1_Patient81_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	European	European	
+batch1_Patient81_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	European	European	
+batch1_Patient84_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	American	Admix	
+batch1_Patient84_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	American	American	
+batch1_Patient84_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	American	American	
+batch1_Patient84_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	American	Admix	
+batch1_Patient84_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	American	Admix	
+batch1_Patient86_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	European	European	
+batch1_Patient86_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	European	European	
+batch1_Patient86_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	European	European	
+batch1_Patient86_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	European	European	
+batch1_Patient86_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	European	European	
+batch1_Patient88_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	African	African	
+batch1_Patient88_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	African	African	
+batch1_Patient88_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	African	African	
+batch1_Patient88_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	African	African	
+batch1_Patient92_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	American	Admix	
+batch1_Patient92_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	African	Admix	
+batch1_Patient92_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	American	Admix	
+batch1_Patient92_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	African	African	
+batch1_Patient92_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	African	Admix	
+batch1_Patient93_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	American	American	
+batch1_Patient93_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	American	American	
+batch1_Patient93_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	American	American	
+batch1_Patient93_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	American	American	
+batch1_Patient93_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	American	American	
+batch1_Patient96_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	East Asian	East Asian	
+batch1_Patient96_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	East Asian	East Asian	
+batch1_Patient96_Liver_Total		batch1	Patient	Covid	Liver_Total	Liver	Autopsy	East Asian	East Asian	
+batch1_Patient96_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	East Asian	East Asian	
+batch1_Patient96_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	East Asian	East Asian	
+batch1_Patient99_Heart_Total		batch1	Patient	Covid	Heart_Total	Heart	Autopsy	African	African	
+batch1_Patient99_Kidney_Total		batch1	Patient	Covid	Kidney_Total	Kidney	Autopsy	African	African	
+batch1_Patient99_Lung_Total		batch1	Patient	Covid	Lung_Total	Lung	Autopsy	African	African	
+batch1_Patient99_LymphNode_Total		batch1	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	African	African	
+batch2_Control06_LymphNode_Total		batch2	Control	No-Covid	LymphNode_Total	LymphNode	Autopsy	East Asian	East Asian	
+batch2_Control07_LymphNode_Total		batch2	Control	No-Covid	LymphNode_Total	LymphNode	Autopsy	East Asian	East Asian	
+batch2_Control08_LymphNode_Total		batch2	Control	No-Covid	LymphNode_Total	LymphNode	Autopsy	East Asian	East Asian	
+batch2_Control09_LymphNode_Total		batch2	Control	No-Covid	LymphNode_Total	LymphNode	Autopsy	European	European	
+batch2_Control10_LymphNode_Total		batch2	Control	No-Covid	LymphNode_Total	LymphNode	Autopsy	European	European	
+batch2_Patient102_Heart_Total		batch2	Patient	Covid	Heart_Total	Heart	Autopsy	African	African	
+batch2_Patient102_Kidney_Total		batch2	Patient	Covid	Kidney_Total	Kidney	Autopsy	African	African	
+batch2_Patient102_Liver_Total		batch2	Patient	Covid	Liver_Total	Liver	Autopsy	African	African	
+batch2_Patient102_Lung_Total		batch2	Patient	Covid	Lung_Total	Lung	Autopsy	African	African	
+batch2_Patient102_LymphNode_Total		batch2	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	African	African	
+batch2_Patient105_Heart_Total		batch2	Patient	Covid	Heart_Total	Heart	Autopsy	African	African	
+batch2_Patient105_Kidney_Total		batch2	Patient	Covid	Kidney_Total	Kidney	Autopsy	African	African	
+batch2_Patient105_Liver_LeftLobe		batch2	Patient	Covid	Liver_LeftLobe	Liver	Autopsy	African	African	
+batch2_Patient105_Liver_RightLobe		batch2	Patient	Covid	Liver_RightLobe	Liver	Autopsy	African	African	
+batch2_Patient105_Lung_Total		batch2	Patient	Covid	Lung_Total	Lung	Autopsy	African	African	
+batch2_Patient105_LymphNode_Total		batch2	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	African	African	
+batch2_Patient109_Heart_Total		batch2	Patient	Covid	Heart_Total	Heart	Autopsy	American	Admix	
+batch2_Patient109_Kidney_Total		batch2	Patient	Covid	Kidney_Total	Kidney	Autopsy	African	Admix	
+batch2_Patient109_Liver_Total		batch2	Patient	Covid	Liver_Total	Liver	Autopsy	African	Admix	
+batch2_Patient109_Lung_Total		batch2	Patient	Covid	Lung_Total	Lung	Autopsy	African	Admix	
+batch2_Patient109_LymphNode_Total		batch2	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	African	Admix	
+batch2_Patient110_Heart_Total		batch2	Patient	Covid	Heart_Total	Heart	Autopsy	American	American	
+batch2_Patient110_Kidney_Total		batch2	Patient	Covid	Kidney_Total	Kidney	Autopsy	American	American	
+batch2_Patient110_Liver_Total		batch2	Patient	Covid	Liver_Total	Liver	Autopsy	American	Admix	
+batch2_Patient110_Lung_Total		batch2	Patient	Covid	Lung_Total	Lung	Autopsy	American	Admix	
+batch2_Patient110_LymphNode_Total		batch2	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	American	Admix	
+batch2_Patient113_Heart_Total		batch2	Patient	Covid	Heart_Total	Heart	Autopsy	European	European	
+batch2_Patient113_Kidney_Total		batch2	Patient	Covid	Kidney_Total	Kidney	Autopsy	European	European	
+batch2_Patient113_Lung_Total		batch2	Patient	Covid	Lung_Total	Lung	Autopsy	European	European	
+batch2_Patient113_LymphNode_Total		batch2	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	European	European	
+batch2_Patient115_Heart_Total		batch2	Patient	Covid	Heart_Total	Heart	Autopsy	American	American	
+batch2_Patient115_Kidney_Total		batch2	Patient	Covid	Kidney_Total	Kidney	Autopsy	American	American	
+batch2_Patient115_Lung_Total		batch2	Patient	Covid	Lung_Total	Lung	Autopsy	American	American	
+batch2_Patient115_LymphNode_Total		batch2	Patient	Covid	LymphNode_Total	LymphNode	Autopsy	American	American	
+batch2_Patient115a_Liver_Total		batch2	Patient	Covid	Liver_Total	Liver	Autopsy	American	American	
+batch2_Patient115b_Liver_Total		batch2	Patient	Covid	Liver_Total	Liver	Autopsy	American	American	
+COVSUBJ_0001_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		High
+COVSUBJ_0002_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0003_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0004_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0004_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0005_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		OtherViralInfection
+COVSUBJ_0006_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0007_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0007_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0008_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0009_1_P_HA	P2	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0009_2_P_HA	P2	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0010_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0011_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0012_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0013_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0014_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0016_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0017_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0018_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0019_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0020_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0021_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0022_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0023_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0024_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0025_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0026_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0027_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0028_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0029_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0030_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0031_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0032_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0033_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0034_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0035_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0036_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0037_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0038_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0039_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0040_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0041_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0042_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0043_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0044_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0045_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0046_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0047_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0048_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0049_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0050_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0051_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0052_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0053_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0054_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0055_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0056_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0057_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0058_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0059_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0060_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0061_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0062_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0063_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0064_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0065_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0066_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0067_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0068_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	South Asian		Medium
+COVSUBJ_0069_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0070_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		High
+COVSUBJ_0071_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0071_2_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0072_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0073_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0074_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0075_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0076_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0077_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0078_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0079_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Low
+COVSUBJ_0080_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0081_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0082_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		OtherViralInfection
+COVSUBJ_0083_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0083_2_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0084_2_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0085_1_P_HA	P3	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0085_2_P_HA	P3	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0086_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0086_2_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0087_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0087_2_P_HA	P8	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0088_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0088_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0089_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0089_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0090_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0090_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0091_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0091_2_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0092_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0093_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0093_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0094_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0095_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0095_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0096_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0097_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		OtherViralInfection
+COVSUBJ_0097_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0098_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0098_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0099_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0099_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0100_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0100_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0101_1_P_HA	P1	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0102_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0103_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0104_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0105_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0105_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0106_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0106_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0107_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0108_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0109_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0110_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0111_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0112_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0113_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0114_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0115_1_P_HA	P2	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0115_2_P_HA	P2	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0116_1_P_WC	P2	B1_WC	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0116_2_P_HA	P2	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0117_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0117_2_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0118_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0118_2_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		OtherViralInfection
+COVSUBJ_0119_1_P_HA	P2	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0119_2_P_HA	P2	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0120_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0121_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0122_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0123_1_P_HA	P2	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0124_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0125_1_P_HA	P2	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0126_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0127_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0128_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0129_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0130_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0131_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0132_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0133_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0134_1_N_HA	P2	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0135_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0136_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0136_2_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0137_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0138_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0139_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0140_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0141_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		OtherViralInfection
+COVSUBJ_0142_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0142_2_P_HA	P3	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0143_1_P_HA	P3	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0143_2_P_HA	P3	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0144_1_P_WC	P4	B1_WC	Detected	Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		High
+COVSUBJ_0145_1_P_WC	P4	B1_WC	Detected	Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		High
+COVSUBJ_0146_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0147_1_N_WC	P4	B1_WC	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0148_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0149_1_P_HA	P3	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0150_1_P_HA	P3	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0151_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0152_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0153_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0154_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0155_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0156_1_N_WC	P4	B1_WC	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		OtherViralInfection
+COVSUBJ_0158_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0159_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		OtherViralInfection
+COVSUBJ_0160_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0161_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0161_2_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0162_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0163_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0164_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0165_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0166_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0167_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		OtherViralInfection
+COVSUBJ_0168_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0169_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0170_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0171_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0172_1_P_HA	P4	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0173_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0174_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0175_1_P_HA	P4	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0176_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0177_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0178_1_P_HA	P4	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0179_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0180_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0181_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0182_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0183_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0184_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0185_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0186_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0187_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		OtherViralInfection
+COVSUBJ_0187_2_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0188_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0189_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0190_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0191_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0192_1_P_HA	P4	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0193_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0193_2_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0194_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0195_1_P_HA	P5	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0196_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0197_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0198_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0199_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0200_1_P_HA	P6	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0201_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0202_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0203_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0204_1_P_HA	P5	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0205_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0206_1_P_HA	P6	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0207_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0208_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0209_1_P_HA	P5	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0210_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0211_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0211_2_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0212_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0213_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0214_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0215_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0216_1_P_HA	P6	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0217_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0218_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0219_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0220_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0220_2_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0221_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0222_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0223_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0224_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0225_1_P_HA	P6	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0226_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0227_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0228_1_P_HA	P6	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0229_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0230_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0231_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0232_1_P_HA	P6	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0233_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0234_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0235_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0236_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0237_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0239_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0240_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0241_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0242_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0243_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0244_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0245_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0246_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0247_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0248_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0249_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0250_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0251_1_P_HA	P6	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0252_1_P_HA	P6	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		High
+COVSUBJ_0254_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0255_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0256_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0257_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0258_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0259_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0260_2_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0261_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0262_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0263_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0264_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		OtherViralInfection
+COVSUBJ_0265_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0266_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0267_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0267_2_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0268_1_P_HA	P6	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		High
+COVSUBJ_0269_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0270_1_P_HA	P6	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0270_2_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0271_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0272_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0273_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		OtherViralInfection
+COVSUBJ_0274_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0275_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0276_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0277_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0278_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0279_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0280_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0281_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0282_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0283_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0284_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		High
+COVSUBJ_0285_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0286_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0287_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0288_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0289_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0290_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0291_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0292_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0293_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0294_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0295_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		OtherViralInfection
+COVSUBJ_0297_1_P_HA	P8	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0297_2_P_HA	P8	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0298_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0299_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		OtherViralInfection
+COVSUBJ_0300_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0301_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0302_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0303_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0304_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0305_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0305_2_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0306_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0307_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0308_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0309_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0310_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0311_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0312_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0313_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0314_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0315_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0316_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0317_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0318_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0319_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0319_2_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0320_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0321_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Low
+COVSUBJ_0322_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0323_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0324_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		Medium
+COVSUBJ_0325_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0326_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0327_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0328_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0329_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0330_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		OtherViralInfection
+COVSUBJ_0331_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0332_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		OtherViralInfection
+COVSUBJ_0333_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0334_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0335_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0336_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0337_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		High
+COVSUBJ_0338_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0339_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0340_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	South Asian		Medium
+COVSUBJ_0340_2_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	South Asian		Medium
+COVSUBJ_0341_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0342_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0343_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0344_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0345_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0346_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0347_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0348_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0349_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0350_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0351_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		High
+COVSUBJ_0352_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0353_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0355_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0356_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0357_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0358_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0359_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0360_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0361_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0362_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		OtherViralInfection
+COVSUBJ_0363_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0364_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0365_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0366_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		High
+COVSUBJ_0367_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0368_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0369_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0370_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0371_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0372_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	South Asian		High
+COVSUBJ_0373_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0374_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0375_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0376_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0377_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0378_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0379_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0380_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0382_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0382_2_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0383_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0384_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0385_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0386_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0388_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0389_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0390_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0391_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0392_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0393_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		OtherViralInfection
+COVSUBJ_0394_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0395_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0396_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0397_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		High
+COVSUBJ_0398_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0399_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0400_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0401_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0402_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0402_2_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0403_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0403_2_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0404_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0405_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0405_2_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0406_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0407_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0408_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0409_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0410_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0411_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0412_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0413_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0414_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0416_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0417_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0418_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0419_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0420_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0421_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0422_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0423_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0424_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0425_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0426_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		OtherViralInfection
+COVSUBJ_0427_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0428_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0429_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0430_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0431_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0432_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0433_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0434_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0435_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0436_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0437_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0438_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	South Asian		Medium
+COVSUBJ_0439_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0440_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0441_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0442_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0443_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0444_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0445_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0446_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0447_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0448_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0449_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		High
+COVSUBJ_0450_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0452_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0453_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0454_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0455_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0455_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0456_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0456_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0457_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0458_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0459_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0460_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0461_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0462_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0463_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0464_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0465_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0466_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0467_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0468_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0469_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0469_2_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0470_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0470_2_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0471_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0472_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0473_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0474_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0475_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0476_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0477_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		OtherViralInfection
+COVSUBJ_0478_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0479_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0480_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0481_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0481_2_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0482_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0483_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0484_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0485_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0486_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0487_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0488_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0489_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0490_1_P_HA	P8	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0491_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0492_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0493_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0494_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0495_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0495_2_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0496_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0497_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0498_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0499_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0500_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0501_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0502_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0503_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0504_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		OtherViralInfection
+COVSUBJ_0505_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0506_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0507_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0508_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0509_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		High
+COVSUBJ_0510_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0511_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0512_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0513_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0514_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0515_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0516_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0517_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0518_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		OtherViralInfection
+COVSUBJ_0519_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0520_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0521_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0522_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0523_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0524_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0525_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0526_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0527_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0528_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0529_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0530_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0531_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0532_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0533_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0534_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0534_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0535_1_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0535_2_N_HA	P1	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0536_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0537_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0538_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0539_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0540_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0541_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0542_1_P_HA	P8	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0543_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0544_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0545_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0546_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0547_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0548_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0549_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0550_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0551_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		OtherViralInfection
+COVSUBJ_0552_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0553_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0553_2_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0554_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0554_2_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0555_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0556_1_P_HA	P3	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0557_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0557_2_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0558_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0559_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0560_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0561_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0562_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0563_1_P_HA	P6	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		High
+COVSUBJ_0564_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0565_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0566_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0567_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		None
+COVSUBJ_0568_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		OtherViralInfection
+COVSUBJ_0569_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		OtherViralInfection
+COVSUBJ_0570_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0571_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0572_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0573_1_N_HA	P8	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0574_1_N_HA	P9	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0575_1_P_HA	P9	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0576_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0577_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0578_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0579_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0580_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0581_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0582_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0584_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		OtherViralInfection
+COVSUBJ_0586_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0588_1_P_HA	P4	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0589_1_N_HA	P4	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0591_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0592_1_P_HA	P5	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0592_2_P_HA	P5	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0593_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0594_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0595_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0596_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0597_1_N_HA	P5	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0598_1_P_HA	P5	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	South Asian		High
+COVSUBJ_0599_1_P_HA	P5	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0600_1_N_HA	P6	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0601_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0601_2_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0602_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0603_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0603_2_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0604_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		High
+COVSUBJ_0605_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0606_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0607_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	South Asian		OtherViralInfection
+COVSUBJ_0608_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0609_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0610_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		High
+COVSUBJ_0612_1_P_HA	P7	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0613_1_N_HA	P7	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0614_1_P_HA	P8	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0615_1_P_HA	P8	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		High
+COVSUBJ_0616_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0617_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0618_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0619_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		Low
+COVSUBJ_0620_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0621_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		OtherViralInfection
+COVSUBJ_0622_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		High
+COVSUBJ_0623_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0624_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0625_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0626_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0627_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Low
+COVSUBJ_0628_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0630_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0631_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0632_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0633_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0634_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0635_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0636_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0637_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		High
+COVSUBJ_0638_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0639_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0639_2_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0640_1_N_HA	P10	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0641_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0643_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0644_1_P_HA	P10	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		High
+COVSUBJ_0645_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0646_1_P_HA	P11	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0647_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0648_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	African		None
+COVSUBJ_0649_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0649_2_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Low
+COVSUBJ_0650_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0651_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0652_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	European		Medium
+COVSUBJ_0653_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0653_2_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0654_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0654_2_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	Ambiguous		None
+COVSUBJ_0655_1_N_HA	P11	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	East Asian		None
+COVSUBJ_0656_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Medium
+COVSUBJ_0657_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0658_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0659_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None
+COVSUBJ_0660_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Medium
+COVSUBJ_0661_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0662_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0663_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		High
+COVSUBJ_0664_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	American		Low
+COVSUBJ_0665_1_P_HA	P12	B2_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	African		Medium
+COVSUBJ_0666_1_N_HA	P12	B2_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	American		None
+COVSUBJ_0667_1_P_HA	P8	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Low
+COVSUBJ_0668_1_P_HA	P8	B3_HA	Detected	Covid	NasalSwab	NasalSwab	Nasal	East Asian		Low
+COVSUBJ_0669_1_N_HA	P3	B3_HA	Not Detected	No-Covid	NasalSwab	NasalSwab	Nasal	European		None

@@ -5,7 +5,7 @@ library(dplyr)
 
 #Read in counts and metadata. 
 Data = read.table("results_Count_gene.filtered.tsv", header=TRUE,sep='\t',quote="")
-metadata=read.table("Metadata.txt", header=TRUE,sep='\t')
+metadata=read.table("Metadata.tsv", header=TRUE,sep='\t')
 
 
 #X an Y gene names can be the same. This makes them unique. Row is set to this unique value. 

@@ -25,10 +25,50 @@ data.pca = tibble::rownames_to_column(as.data.frame(data.pca$x), "SampleID")
 data.pca=merge(metadata,data.pca,all.by="SampleID",all.x = TRUE,all.y=TRUE)
 
 #Plot
-ggplot(data.pca, aes(x = PC1, y = PC2, color = Tissue)) +
+ggplot(data.pca, aes(x = PC1, y = PC2, color = Study)) +
   geom_point(size =2) +
   #coord_fixed() +
   ggtitle("CombatSeq.Counts")
-png("CombatSeq.Counts.png")
+png("CombatSeq.Counts_Study.png")
+print(p)
+dev.off()
+
+ggplot(data.pca, aes(x = PC1, y = PC2, color = Covid.Status)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+png("CombatSeq.Counts_CovidStatus.png")
+print(p)
+dev.off()
+
+ggplot(data.pca, aes(x = PC1, y = PC2, color = Tissue2)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+png("CombatSeq.Counts_Tissue2.png")
+print(p)
+dev.off()
+
+ggplot(data.pca, aes(x = PC1, y = PC2, color = RIA.Superpopulation.Inference)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+png("CombatSeq.Counts_RIA.Superpopulation.Inference.png")
+print(p)
+dev.off()
+
+ggplot(data.pca, aes(x = PC1, y = PC2, color = RIA.Superpopulation.Inference.GrtEq0.7)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+png("CombatSeq.Counts_RIA.Superpopulation.Inference.GrtEq0.7.png")
+print(p)
+dev.off()
+
+ggplot(data.pca, aes(x = PC1, y = PC2, color = Type)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+png("CombatSeq.Counts_Type.png")
 print(p)
 dev.off()

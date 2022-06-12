@@ -12,7 +12,7 @@ dfcount = pd.read_csv("NasalAutopsyCount",sep='\t')
 #Import a list of samlpe IDs and corrisponding tissue. 
 ra_list = pd.read_csv("List.tsv",sep='\t')
 ##Create dict that has tissue as key.
-d = ra_list.groupby('Tissue2')['SampleID'].apply(list).to_dict()
+d = ra_list.groupby('Tissue')['SampleID'].apply(list).to_dict()
 
 ##Will be used to get all genes that pass TPM filter. 
 genes=[]

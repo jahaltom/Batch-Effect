@@ -13,7 +13,7 @@ countData=round(countData,0)
 
 ##ComBat-Seq
 metadata = read.table("Metadata.tsv",header=TRUE,sep = '\t')
-group=metadata$Tissue2
+group=metadata$Tissue
 batch=metadata$Study
 adjusted_counts = sva::ComBat_seq(countData, batch=batch, group=group, full_mod=FALSE)
 write.table(adjusted_counts,"CombatSeq.Counts.tsv" ,sep = '\t',quote = FALSE)

@@ -4,7 +4,7 @@ library("ggplot2")
 library(dplyr)
 
 #Read in counts and metadata. 
-Data = read.table("results_Count_gene.filtered.tsv", header=TRUE,sep='\t',quote="")
+Data = read.table("CombatSeq.Counts.tsv", header=TRUE,sep='\t',quote="")
 metadata=read.table("Metadata.tsv", header=TRUE,sep='\t')
 
 
@@ -41,11 +41,11 @@ png("CombatSeq.Counts_CovidStatus.png")
 print(p)
 dev.off()
 
-ggplot(data.pca, aes(x = PC1, y = PC2, color = Tissue2)) +
+ggplot(data.pca, aes(x = PC1, y = PC2, color = Tissue)) +
   geom_point(size =2) +
   #coord_fixed() +
   ggtitle("CombatSeq.Counts")
-png("CombatSeq.Counts_Tissue2.png")
+png("CombatSeq.Counts_Tissue.png")
 print(p)
 dev.off()
 
@@ -57,18 +57,26 @@ png("CombatSeq.Counts_RIA.Superpopulation.Inference.png")
 print(p)
 dev.off()
 
-ggplot(data.pca, aes(x = PC1, y = PC2, color = RIA.Superpopulation.Inference.GrtEq0.7)) +
+ggplot(data.pca, aes(x = PC1, y = PC2, color = RIA.Superpopulation.Inference.Admix	)) +
   geom_point(size =2) +
   #coord_fixed() +
   ggtitle("CombatSeq.Counts")
-png("CombatSeq.Counts_RIA.Superpopulation.Inference.GrtEq0.7.png")
+png("CombatSeq.Counts_RIA.Superpopulation.Inference.Admix.png")
 print(p)
 dev.off()
 
-ggplot(data.pca, aes(x = PC1, y = PC2, color = Type)) +
+ggplot(data.pca, aes(x = PC1, y = PC2, color = Covid.Transcript.Level)) +
   geom_point(size =2) +
   #coord_fixed() +
   ggtitle("CombatSeq.Counts")
-png("CombatSeq.Counts_Type.png")
+png("CombatSeq.Counts_Covid.Transcript.Level.png")
+print(p)
+dev.off()
+
+ggplot(data.pca, aes(x = PC1, y = PC2, color = TissueSpecific)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+png("CombatSeq.Counts_TissueSpecific.png")
 print(p)
 dev.off()

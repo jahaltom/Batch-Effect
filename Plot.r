@@ -1,6 +1,58 @@
 library(tibble)
 library("ggplot2")
 library(dplyr)
+library(DESeq2)
+
+Plot=function(matrix){
+ggplot(matrix, aes(x = PC1, y = PC2, color = Study, shape=Study)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+
+ggsave("CombatSeq.Counts_Study.png")
+
+
+ggplot(matrix, aes(x = PC1, y = PC2, color = Covid.Status, shape=Study)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+ggsave("CombatSeq.Counts_CovidStatus.png")
+
+
+ggplot(matrix, aes(x = PC1, y = PC2, color = Tissue, shape=Study)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+ggsave("CombatSeq.Counts_Tissue.png")
+
+
+ggplot(matrix, aes(x = PC1, y = PC2, color = RIA.Superpopulation.Inference, shape=Study)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+ggsave("CombatSeq.Counts_RIA.Superpopulation.Inference.png")
+
+ggplot(matrix, aes(x = PC1, y = PC2, color = RIA.Superpopulation.Inference.Admix	, shape=Study)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+ggsave("CombatSeq.Counts_RIA.Superpopulation.Inference.Admix.png")
+
+ggplot(matrix, aes(x = PC1, y = PC2, color = Covid.Transcript.Level, shape=Study)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+ggsave("CombatSeq.Counts_Covid.Transcript.Level.png")
+
+
+ggplot(matrix, aes(x = PC1, y = PC2, color = TissueSpecific, shape=Study)) +
+  geom_point(size =2) +
+  #coord_fixed() +
+  ggtitle("CombatSeq.Counts")
+ggsave("CombatSeq.Counts_TissueSpecific.png")
+}
+
+
 
 #Read in counts and metadata. 
 Data = read.table("CombatSeq.Counts.tsv", header=TRUE,sep='\t',quote="")
@@ -14,61 +66,36 @@ tryCatch({
   Data=select(Data,contains(c("COVSUBJ","batch")))},error = function(e){})
 
 
+
+
+
+
+
+
+
 #Remove zero variance columns
-Data=t(Data)[ , which(apply(t(Data), 2, var) !=0)]
-#PCA
-data.pca = prcomp(Data,center=TRUE,scale=TRUE)
+#Data=t(Data)[ , which(apply(t(Data), 2, var) !=0)]
 
-#Make SampleID column
-data.pca = tibble::rownames_to_column(as.data.frame(data.pca$x), "SampleID")
-#Merge with metadata
-data.pca=merge(metadata,data.pca,all.by="SampleID",all.x = TRUE,all.y=TRUE)
-
-#Plot
-ggplot(data.pca, aes(x = PC1, y = PC2, color = Study)) +
-  geom_point(size =2) +
-  #coord_fixed() +
-  ggtitle("CombatSeq.Counts")
-
-ggsave("CombatSeq.Counts_Study.png")
+#DESeq2 transformation/normalization
+dds= DESeqDataSetFromMatrix(countData=Data, colData = metadata, design = ~1)
+vsd=vst(dds,fitType='local')
+pca_vsd_dds=plotPCA(vsd, returnData=T, intgroup=c("SampleID"))
+pca_vsd_dds=merge(metadata,pca_vsd_dds,all.by="SampleID",all.x = TRUE,all.y=TRUE)
+Plot(pca_vsd_dds)
 
 
-ggplot(data.pca, aes(x = PC1, y = PC2, color = Covid.Status)) +
-  geom_point(size =2) +
-  #coord_fixed() +
-  ggtitle("CombatSeq.Counts")
-ggsave("CombatSeq.Counts_CovidStatus.png")
+
+#PCA R
+#Data=assay(vsd)
+#data.pca = prcomp(Data,center=TRUE,scale=TRUE)
+##Make SampleID column
+#data.pca = tibble::rownames_to_column(as.data.frame(data.pca$rotation), "SampleID")
+##Merge with metadata
+#data.pca=merge(metadata,data.pca,all.by="SampleID",all.x = TRUE,all.y=TRUE)
+#Plot(data.pca)
 
 
-ggplot(data.pca, aes(x = PC1, y = PC2, color = Tissue)) +
-  geom_point(size =2) +
-  #coord_fixed() +
-  ggtitle("CombatSeq.Counts")
-ggsave("CombatSeq.Counts_Tissue.png")
 
 
-ggplot(data.pca, aes(x = PC1, y = PC2, color = RIA.Superpopulation.Inference)) +
-  geom_point(size =2) +
-  #coord_fixed() +
-  ggtitle("CombatSeq.Counts")
-ggsave("CombatSeq.Counts_RIA.Superpopulation.Inference.png")
 
-ggplot(data.pca, aes(x = PC1, y = PC2, color = RIA.Superpopulation.Inference.Admix	)) +
-  geom_point(size =2) +
-  #coord_fixed() +
-  ggtitle("CombatSeq.Counts")
-ggsave("CombatSeq.Counts_RIA.Superpopulation.Inference.Admix.png")
-
-ggplot(data.pca, aes(x = PC1, y = PC2, color = Covid.Transcript.Level)) +
-  geom_point(size =2) +
-  #coord_fixed() +
-  ggtitle("CombatSeq.Counts")
-ggsave("CombatSeq.Counts_Covid.Transcript.Level.png")
-
-
-ggplot(data.pca, aes(x = PC1, y = PC2, color = TissueSpecific)) +
-  geom_point(size =2) +
-  #coord_fixed() +
-  ggtitle("CombatSeq.Counts")
-ggsave("CombatSeq.Counts_TissueSpecific.png")
 

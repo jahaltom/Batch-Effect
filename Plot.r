@@ -65,19 +65,12 @@ tryCatch({
   #Select only columns with count data. 
   Data=select(Data,contains(c("COVSUBJ","batch")))},error = function(e){})
 
-
-
-
-
-
-
-
-
 #Remove zero variance columns
 #Data=t(Data)[ , which(apply(t(Data), 2, var) !=0)]
 
 #DESeq2 transformation/normalization
-dds= DESeqDataSetFromMatrix(countData=Data, colData = metadata, design = ~1)
+dds= DESeqDataSetFromMatrix(countData=round(Data), colData = metadata, design = ~1)
+colData(dds)$sizeFactor <- 1
 vsd=vst(dds,fitType='local')
 pca_vsd_dds=plotPCA(vsd, returnData=T, intgroup=c("SampleID"))
 pca_vsd_dds=merge(metadata,pca_vsd_dds,all.by="SampleID",all.x = TRUE,all.y=TRUE)

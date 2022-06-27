@@ -30,4 +30,4 @@ result = result[complete.cases(result),]
 result = cbind(ID = rownames(result), result)
 
 
-write.table(result,"Covid19VSNonCovid19_DGE.tsv" ,sep = '\t',row.names = FALSE)
+write.table(result,"SRP261138_Covid19VSNonCovid19_DGE.tsv" ,sep = '\t',row.names = FALSE)

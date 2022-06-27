@@ -10,7 +10,7 @@ dftpm = pd.read_csv("results_TPM_gene.tsv",sep='\t')
 dfcount = pd.read_csv("results_Count_gene.tsv",sep='\t')
 
 #Import a list of samlpe IDs and corrisponding tissue. 
-ra_list = pd.read_csv("List.tsv",sep='\t')
+ra_list = pd.read_csv("AutopsyStudiesCurated.tsv",sep='\t')
 ##Create dict that has Tissue-disease as key.
 d = ra_list.groupby('Tissue-disease')['run_accession'].apply(list).to_dict()
 
